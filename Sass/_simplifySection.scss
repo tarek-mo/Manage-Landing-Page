@@ -1,0 +1,49 @@
+.simplify {
+  margin-top: 100px;
+
+  background: url("../images/bg-simplify-section-desktop.svg"), $brightRed;
+  background-position: top 0 left 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      color: white;
+      max-width: 450px;
+    }
+
+    .cta {
+      border-radius: 30px;
+      background-color: white;
+      color: $brightRed;
+      padding: 10px 25px 15px;
+      display: inline-block;
+      text-align: center;
+
+      &:hover {
+        color: hsla(12, 88%, 59%, 0.432);
+      }
+    }
+  }
+}
+
+@media (max-width: 684px) {
+  .simplify {
+    padding: 50px 0;
+    background: url("../images/bg-simplify-section-mobile.svg"), $brightRed;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .container {
+      flex-direction: column;
+      text-align: center;
+      h2 {
+        max-width: 400px;
+      }
+    }
+  }
+}

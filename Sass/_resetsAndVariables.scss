@@ -1,0 +1,63 @@
+// =======> Variables
+
+$brightRed: hsl(12, 88%, 59%);
+$paleRed: hsl(13, 100%, 96%);
+$darkBlue: hsl(228, 39%, 23%);
+$lightGrey: hsl(227, 12%, 61%);
+$verylightGrey: hsl(0, 0%, 98%);
+
+// =======> Resets
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  color: $darkBlue;
+  font-weight: 700;
+}
+
+p {
+  color: $lightGrey;
+
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cta {
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
