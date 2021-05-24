@@ -71,10 +71,6 @@ input {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-body {
-  display: none;
-}
-
 header {
   width: 100vw;
   height: 130px;
@@ -128,7 +124,7 @@ header .desk-nav .cta:hover {
 }
 
 header .mobile-nav {
-  height: 130px;
+  height: 130px !important;
   width: 100%;
   display: flex;
   align-items: center;
