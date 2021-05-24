@@ -124,7 +124,7 @@ header .desk-nav .cta:hover {
 }
 
 header .mobile-nav {
-  height: 20vh;
+  height: 130px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -202,7 +202,7 @@ header .mobile-nav .ul-links-mobile {
   z-index: 10;
   font-weight: 700;
   position: fixed;
-  top: 20vh;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: 0;
