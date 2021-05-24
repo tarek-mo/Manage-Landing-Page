@@ -73,7 +73,6 @@ input {
 
 header {
   width: 100vw;
-  height: 100px;
   transition: box-shadow 0.3s linear;
   position: relative;
   width: 100vw;
@@ -94,7 +93,7 @@ header ul {
 }
 
 header .desk-nav {
-  height: 20vh;
+  height: 145px;
   display: none;
 }
 
