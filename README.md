@@ -3,7 +3,7 @@
 ## Frontend Mentor "Manage Landing Page" Project.
 
 ## To see the website please visit:
-https://tarekslandingpage.netlify.app
+https://tarekslandingpagedemo2.netlify.app
 
 
 ## The Tools Used in this Project:
