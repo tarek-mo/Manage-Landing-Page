@@ -71,6 +71,8 @@ input {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* HEADER */
+
 header {
   width: 100vw;
   height: 130px;
@@ -252,6 +254,8 @@ header.scrolled {
   }
 }
 
+/* BANNER SECTION */
+
 .banner {
   padding-top: 150px;
 }
@@ -304,6 +308,7 @@ header.scrolled {
   }
 }
 
+/* PROOF SECTION  */
 .proof {
   margin-top: 200px;
   position: relative;
@@ -378,6 +383,8 @@ header.scrolled {
     margin-left: 0;
   }
 }
+
+/* TESTIMONIALS SECTION  */
 
 .testimonials {
   margin-top: 130px;
@@ -474,6 +481,7 @@ header.scrolled {
   }
 }
 
+/* FOOTER */
 footer {
   background-color: #1e1e26;
   color: white;
