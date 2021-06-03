@@ -9,7 +9,6 @@ https://tarekslandingpagedemo2.netlify.app
 ## The Tools Used in this Project:
 
 ### HTML
-### CSS
 ### SASS
 ### Bootstrap
   - Mainly their Grid system and container class.
